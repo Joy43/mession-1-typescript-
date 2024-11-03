@@ -28,8 +28,16 @@ const boolArray:GenericArray<boolean>=[true,false,true]
     rray of objects with name and
             age properties
 */
+// type User={
+//     name:string;
+//     age:number
+// }
+interface User{
+    name:string;
+    age:number
+}
 
-const user :GenericArray<{name:string,age:number}>=[
+const user :GenericArray<User>=[
     {
         name:'joy',
         age:100
